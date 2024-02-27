@@ -3,28 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Skolmi: Educación virtual</title>   
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Skolmi: Educación virtual</title> 
+
 </head>
+
 <body>
-    <header>
-        <nav class="menu-familia">
-            <ul class="menu-familia">
-                <li id="ingresar"><a href="#">Ingresar a Plataforma</a></li>
-                <li><a href="#">Pagos</a></li>
-                <li><a href="#">Ayuda</a></li>
-                <li><a href="#">Padres</a></li>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Skolmi</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__links">
+                    <a href="#">Nosotros</a>
+                </li>
+                <li class="nav__links">
+                    <a href="#">Oferta Educativa</a>
+                </li>
+                <li class="nav__links">
+                    <a href="#">Bienestar</a>
+                </li>
+                <li class="nav__links">
+                    <a href="#">Familia</a>
+                </li> <!--El objetivo del menú Familia es que allí se encuentren los items de quienes ya hacen parte de Skolmi como Pagos, Tienda, Acceso a Plataforma-->
+                <img src="./images/xcircle.svg" alt="cerrar" class="nav__close">
             </ul>
-        <nav class="menu-visitante">
-            <ul class="menu-visitante">
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Oferta educativa</a></li>
-                <li><a href="#">Bienestar</a></li>      
-            </ul>    
+
+            <div class="nav__menu">
+                <img src="./images/menuright.svg" alt="menu" class="nav__img">
+            </div>  
         </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Skolmi, Escuela Donde Quieras</h1>
+            <p class="hero__paragraph">Somos una alternativa a la educación trádicional que permite a sus estudiantes desarrollar habilidades para desenvolverse en el mundo.</p>
+            <a href="#" class="cta">¡Conócenos!</a>
+        </section>
     </header>
 </body>
 </html>
