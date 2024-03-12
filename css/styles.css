@@ -11,7 +11,7 @@ body{
 
 .container {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
     overflow: hidden;
     padding: var(--padding-container);
@@ -193,4 +193,44 @@ nav {
 
 .price {
     text-align: center;
+}
+
+.price__table {
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.price__element{
+    background-color: rgba(160, 160, 160, 0.096);
+    width: 300px;
+    border-radius: 12px;
+    padding: 40px;
+    --color-plan: #ffff;
+    --color-price: green;
+    --bg-cta: orange;
+    --color-cta: #ffff;
+    --color-items: #696871;
+}
+
+.price__name{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.plan__subtitle{
+    font-size: 2rem;
+    color: var(--color-price);
+}
+
+.price__items{
+    margin-top: 35px;
+    display: grid;
+    gap: 1em;
+    font-weight: 300;
+    font-size: 1.3rem;
 }
